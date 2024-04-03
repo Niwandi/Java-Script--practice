@@ -1,0 +1,35 @@
+body{
+    background-image: url(Images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#btn, #btn-rst{
+    font-size: 30px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20%;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#mainResult{
+    border: white 4px solid;
+}
+#btn-rst{
+    display: none;
+    margin-top: 20px;
+}
+img{
+    margin-left: 10px;
+}

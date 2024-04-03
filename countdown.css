@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Lobster+Two&family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-image: url(/Images/countdown_bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: normal;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 1rem 2rem;
+    line-height: 1;
+}
+.countdown-c{
+    text-align: center;
+}
+.countdown-c span{
+    font-size: 1.3rem;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
